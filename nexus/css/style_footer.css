@@ -1,0 +1,132 @@
+/* --- NOVO FOOTER INFERIOR (SELO E LEGAL) --- */
+
+.footer-legal {
+    background-color: #0e2849; /* Cor de fundo clara similar à imagem */
+    padding: 20px 0;
+    font-family: 'Baloo 2', sans-serif;
+    color: #ffffff;
+}
+
+.footer-legal .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.compliance-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.compliance-icons .icon-item {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.compliance-icons .icon-item i {
+    font-size: 24px;
+    margin-right: 8px;
+    color: #ffffff;
+}
+
+.footer-main-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #0e2849;
+}
+
+.footer-logo-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-logo-info .logo-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--azul-principal);
+}
+
+.footer-logo-info .copyright {
+    font-size: 12px;
+    color: #555;
+}
+
+.footer-contact-social {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-contact-social .contact-info-text {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer-contact-social .contact-info-text a {
+    color: var(--azul-principal);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    font-size: 20px;
+    color: var(--azul-principal);
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: var(--verde-cta);
+}
+
+.footer-legal-details {
+    font-size: 10px;
+    color: #888;
+    line-height: 1.6;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.footer-legal-details p {
+    margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .compliance-icons {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .footer-main-row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .footer-logo-info {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .footer-contact-social {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
